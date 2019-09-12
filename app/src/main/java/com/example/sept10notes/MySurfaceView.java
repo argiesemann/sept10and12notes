@@ -11,7 +11,7 @@ import android.util.AttributeSet;
 import android.view.SurfaceView;
 
 public class MySurfaceView extends SurfaceView {
-    MySurfaceView(Context context, AttributeSet attrs) {
+    public MySurfaceView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         setWillNotDraw(false);
